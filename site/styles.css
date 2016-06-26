@@ -1,0 +1,57 @@
+html {
+  background: lightblue;
+  }
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+      background: yellow;
+}
+
+body {
+    width: 90%;
+    margin: auto;
+    background-color: white;
+}
+
+
+nav {
+  background-color: blue;
+  height: 0px;
+  margin-bottom: 1em;
+}
+
+nav > ul > li{
+  list-style: none;
+  float: right;
+  }
+
+a:link, a:visited {
+  text-decoration: none;
+  }
+
+header {
+  background-color: green;
+  height: 500px;
+  margin-bottom: 1em;
+}
+
+div {
+ background-color: gray;   
+}
+
+p{
+      background: red;
+}
+
+
+
+/* Notes future use
+
+section {
+  background-image: ()
+}
+
+*/
