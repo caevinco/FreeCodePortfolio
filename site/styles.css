@@ -18,22 +18,16 @@ body {
 }
 
 
-nav {
-  background-color: blue;
-  height: 0px;
-  margin-bottom: 1em;
-}
-
 nav > ul > li{
   list-style: none;
   float: right;
   }
-
 a:link, a:visited {
   text-decoration: none;
   }
 
-.module {
+.content {
+  
   background: 
     linear-gradient(
       to bottom,
@@ -42,21 +36,72 @@ a:link, a:visited {
     ),
     url(https://pixabay.com/static/uploads/photo/2015/08/24/12/53/banner-904884_960_720.jpg);
     background-size: cover;
-    position: relative;
-    overflow: hidden;
+    
     height: 500px;
+    width: 100%;
 }
-.module > header {
-    position: absolute;
-    top: 60px;
-    left: 40px;
-    height: 70%;
-    width: 50%;
-    padding: 20px 10px;
-    background: inherit;
-    background-attachment: fixed;
+
+
+
+
+
+.presentation  {
+  position: 
+  margin-left: 160px;
+   height: 400px;
+    width: 450px;
+  position: absolute;
+  float: left;
+  -moz-column-count: 1;
+  -moz-column-gap: 1em;
+  -webkit-column-count: 1;
+  -webkit-column-gap: 1em;
+  column-count: 1;
+  margin-top: 50px;
+  margin-left: 150px;
+  margin-bottom: 2em;
+
+  opacity: 0.7;
+
+  
+ } 
+  
+#paragr {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-size: 20px;
+  text-indent: 50px;
+  color: white;
+
+
+
+
 }
-.module > header > h2, p {
+
+
+.photo {
+  margin-right: 100px;
+  position: relative;
+  float: right;
+  -moz-column-count: 1;
+  -moz-column-gap: 1em;
+  -webkit-column-count: 1;
+  -webkit-column-gap: 1em;
+  column-count: 1;
+  margin-top: 50px;
+  margin-bottom: 2em;
+
+}
+
+.photo img {
+
+
+    border-radius: 25px;
+    height: 400px;
+    width: 320px;
+}
+
+#portafolio, p {
   margin: 0;
   color: white;
   text-shadow: 0 1px 0 black;
@@ -67,7 +112,9 @@ div {
 }
 
 p{
-      
+ margin: 0;
+  color: white;
+  text-shadow: 0 1px 0 black;     
   }    
 
 
