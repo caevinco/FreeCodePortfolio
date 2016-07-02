@@ -43,7 +43,10 @@ a:link, a:visited {
 
 
 
+#title{
 
+    text-align: center;
+}
 
 .presentation  {
   position: 
@@ -106,6 +109,22 @@ a:link, a:visited {
   color: white;
   text-shadow: 0 1px 0 black;
 }
+
+.designs {
+  -moz-column-count: 2;
+  -moz-column-gap: 0.5em;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 1em;
+  column-count: 2;
+  column-gap: 1em;
+  margin-bottom: 2em;
+}
+
+.designs img {
+  width: 100%;
+  margin-bottom: .5em;
+}
+
 
 div {
  background-color: gray;   
