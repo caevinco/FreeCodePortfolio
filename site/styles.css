@@ -30,12 +30,7 @@ a:link, a:visited {
 
 .content {
   clear: both;
-  background: 
-    linear-gradient(
-      to bottom,
-      rgba(0, 0, 0, 0),
-      rgba(0, 0, 0, 0.4)
-    ),
+  background:     
   url(https://pixabay.com/static/uploads/photo/2015/08/24/12/53/banner-904884_960_720.jpg);
   background-size: cover;
   height: 500px;
@@ -47,20 +42,16 @@ a:link, a:visited {
 }
 
 .presentation  {
-  border-radius: 45px;
+  border-radius: 25px;
   height: 400px;
   width: 450px;
   position: absolute;
   float: left;
-  -moz-column-count: 1;
-  -moz-column-gap: 1em;
-  -webkit-column-count: 1;
-  -webkit-column-gap: 1em;
   column-count: 1;
   margin-top: 50px;
   margin-left: 200px;
   margin-bottom: 2em;
-  background: rgba(230, 243, 255, 0.5);
+  background: rgba(255, 255, 255, 0.2);
  } 
   
 #paragr {
@@ -76,17 +67,13 @@ a:link, a:visited {
   margin-right: 200px;
   position: relative;
   float: right;
-  -moz-column-count: 1;
-  -moz-column-gap: 1em;
-  -webkit-column-count: 1;
-  -webkit-column-gap: 1em;
   column-count: 1;
   margin-top: 50px;
   margin-bottom: 2em;
 }
 
 .photo img {
-    border-radius: 25px;
+    border-radius: 50%;
     height: 400px;
     width: 320px;
 }
@@ -94,10 +81,6 @@ a:link, a:visited {
 
 
 .designs {
-  -moz-column-count: 2;
-  -moz-column-gap: 1em;
-  -webkit-column-count: 2;
-  -webkit-column-gap: 2em;
   column-count: 2;
   column-gap: 2em;
   margin: 0.75em;
@@ -114,39 +97,13 @@ a:link, a:visited {
 
   font-family: sans-serif;
   font-size: 1.6em;
-  font-weight: 30%;
+  font-weight: 45%;
   background-color: #FFe6cc;
   text-align: center;
 }
 
-
-.authorPref {
-  float:right;
-  width:50%;
-  padding: 0px;
-
-}
-
-ul {
-  list-style: none;
-  
-
-}
 #footer {
   clear:both;
   padding: 5px 10px;
   background:#ffffcc;
 }
-
-
-/** social network **//
-
-.custom #fixed-social-icons { background:transparent; width:32px; position:fixed; top:50px; left:0px; }
- .custom #fixed-social-icons a { display:block; height:32px; width:32px; }
-  .custom #fixed-social-icons a.social-twitter { background: url('facebook.png') 0 0 no-repeat; }
-   .custom #fixed-social-icons a.social-linkedin { background: url('linkedin.png') 0 0 no-repeat; }
-  .custom #fixed-social-icons a.social-facebook { background: url('facebook.png') 0 0 no-repeat; }
-
-
-
-
