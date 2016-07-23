@@ -1,3 +1,3 @@
 # FreeCodePortfolio
 portfolio assigment
-[i am learning basics](www.linda.com)
+[i am learning basics](http://www.lynda.com)
