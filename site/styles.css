@@ -1,0 +1,109 @@
+html {
+  background: lightblue;
+  }
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+
+  text-align: right;
+      
+}
+
+body {
+    width: 90%;
+    margin: auto;
+    background-color: #FFe6cc;
+}
+
+nav {
+  
+  float: right;
+  }
+
+a:link, a:visited {
+  text-decoration: none;
+  }
+
+
+.content {
+  clear: both;
+  background:     
+  url(https://pixabay.com/static/uploads/photo/2015/08/24/12/53/banner-904884_960_720.jpg);
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+}
+
+#title{
+    text-align: center;
+}
+
+.presentation  {
+  border-radius: 25px;
+  height: 400px;
+  width: 450px;
+  position: absolute;
+  float: left;
+  column-count: 1;
+  margin-top: 50px;
+  margin-left: 200px;
+  margin-bottom: 2em;
+  background: rgba(255, 255, 255, 0.2);
+ } 
+  
+#paragr {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-size: 20px;
+  text-indent: 50px;
+  color: #052052;
+  }
+
+
+.photo {
+  margin-right: 200px;
+  position: relative;
+  float: right;
+  column-count: 1;
+  margin-top: 50px;
+  margin-bottom: 2em;
+}
+
+.photo img {
+    border-radius: 50%;
+    height: 400px;
+    width: 320px;
+}
+
+
+
+.designs {
+  column-count: 2;
+  column-gap: 2em;
+  margin: 0.75em;
+  
+}
+
+.designs img {
+  width: 100%;
+ 
+}
+
+
+.author {
+
+  font-family: sans-serif;
+  font-size: 1.6em;
+  font-weight: 45%;
+  background-color: #FFe6cc;
+  text-align: center;
+}
+
+#footer {
+  clear:both;
+  padding: 5px 10px;
+  background:#ffffcc;
+}
